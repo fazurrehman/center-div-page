@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Experimenting div center align page with css and inspired by google material design dialog box | Faizur Rehman ">
+    <meta name="keywords" content="center, div, css, alignment, page">
+    <meta name="author" content="Faizur Rehman">
+    <title>Div Center Experiment by Faizur Rehman</title>
+  </head>
+
+  <!-- styling here -->
+  <style type="text/css">
+    body{ 
+      margin: 0; 
+      padding:0;
+      font: 18px/1.5 'arial', verdana, sans-serif;
+    }
+    .wrapperOutside{ 
+      display: table;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .wrapperInside {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    /* added animation*/
+    div {
+      -webkit-transition-property: all;
+      -webkit-transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease;
+      -webkit-transition-delay: 0s;
+    }
+  </style>
+
+  <body>
+
+
+    <div class="wrapperOutside">
+      <div class="wrapperInside">
+        <h1 style="font-size: 48px; margin-bottom:15px; color: #666">Coming Soon</h1>
+        <span>#FollowMeIFollowYou</span><br>
+        <a href="https://www.behance.net/fazurrehman" target="_blank" style="color: #2980b9; text-decoration: none">https://www.behance.net/fazurrehman</a>
+      </div>
+    </div>
+
+
+
+
+  </body>
+</html>
